@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviço para Estrangeiro</title>
+</head>
+<body>
+  <h1>Welcome | Bem-Vindo </h1>
+  <p>Let's find out if you are a foreigner or not | Vamos descrobrir se você é estrangeiro ou não .</p>
+  Where you from | De onde você é: <input type="text" name="txtpais" id="txtpais"> <input type="button" value="Verificar" onclick="verificar()">
+
+  <div id="res">
+
+  </div>
+
+  <script>
+    function verificar(){
+      let país = document.querySelector('input#txtpais')
+      let resp = document.querySelector('div#res')
+
+      if (país === 'Brasil'){
+        resp.innerHTML = `Você é do ${país.value} (a) portanto estrangeiro (a) !`
+      } else {
+        resp.innerHTML += ` Welcome you is ${país.value}`
+      }
+    }
+  </script>
+</body>
+</html>
