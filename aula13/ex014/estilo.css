@@ -16,7 +16,10 @@ section {
   margin: auto;
   padding: 1.5rem;
 }
-
+div {
+  text-align: center;
+  padding: 9px;
+}
 footer {
   font-style: italic;
   text-align: center;
