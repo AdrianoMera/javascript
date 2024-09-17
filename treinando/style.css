@@ -1,0 +1,27 @@
+body {
+  background-color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+section {
+  background-color: #fff;
+  width: 35rem;
+  margin: auto;
+  border-radius: .8rem;
+  box-shadow: 1px 1px 10px #00000046;
+  padding: 2rem;
+}
+div {
+  text-align: center;
+  padding: .5rem;
+}
+footer {
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+
